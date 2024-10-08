@@ -8,8 +8,8 @@ $stmt->bindParam(':bio', $bio);
 $stmt->bindParam(':avatar_url', $avatar_url);
 
 $user_id = 6;
-$bio = 'Music lover and software engineer.';
-$avatar_url = 'https://testinglang.com/icon.jpg';
+$bio = 'Enrollment/Grades.';
+$avatar_url = 'https://sample.com/icon.jpg';
 
 if ($stmt->execute()) {
     echo "Record inserted successfully";
